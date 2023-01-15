@@ -83,9 +83,11 @@ export default function Form() {
       </section>
       <section className="w-full pt-10 text-center "></section>
 
+
       <section>
         {fullReplyState.length > 0 && <ReportTable report={fullReplyState} />}
         {fullReplyState.length == 0 && <h2>No Cookie Stands Available</h2>}
+
       </section>
     </div>
   );
