@@ -86,8 +86,7 @@ export default function Form() {
       </section>
       <section className="w-full pt-10 text-center "></section>
 
-      <section className="w-full pt-10 text-center "></section>
-
+      <section >
         {fullReplyState.length > 0 &&
           fullReplyState.map((item, index) => {
             return (
